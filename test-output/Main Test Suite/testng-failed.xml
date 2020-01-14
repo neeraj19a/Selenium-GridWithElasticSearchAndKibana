@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Main Test Suite]" parallel="classes">
+  <test name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="com.selenium.grid.GridExampleTest1">
+        <methods>
+          <include name="setUp"/>
+          <include name="testGooglePageTitleInIEBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.selenium.grid.GridExampleTest1 -->
+      <class name="com.selenium.grid.GridExampleTest2">
+        <methods>
+          <include name="setUp"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.selenium.grid.GridExampleTest2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Main Test Suite] -->
